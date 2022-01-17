@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Inscription {% endblock %}
+
+{% block body %}
+<head>
+    
+</head>
+<body>
+    <br><br><br>   
+    
+    <form>
+    <fieldset>
+        <legend>Veuillez remplir ce formulaire pour imprimer les pages</legend>
+        <div class="form-group row">              
+        </div>
+        <div class="form-group">
+        <label for="exampleInputEmail1" class="form-label mt-4">Addresse E-mail</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entre votre E-mail">
+        <small id="emailHelp" class="form-text text-muted">Votre mail ne sera jamais partagé.</small>
+        </div>
+        <div class="form-group">
+        <label for="exampleInputPassword1" class="form-label mt-4">Mot de Passe</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de Passe">
+        </div>    
+        
+    </fieldset>
+    </form>
+    <button onclick="window.location.href = '/print';" class="btn btn-primary btn-lg" >Valider</button>
+        
+</body>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer>
+  <table class="table table-hover">    
+  <tr class="table-danger"> 
+        <th scope="row">Arcis Etienne</th>
+        <td>Ne pas copier</td>
+        <td>Tout droits réservé</td>
+        <td>© </td>
+      </tr>
+</footer> 
+{% endblock %}

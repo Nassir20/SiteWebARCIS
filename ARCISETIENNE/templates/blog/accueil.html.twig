@@ -1,0 +1,72 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Acceuil {% endblock %}
+
+{% block body %}
+<head>
+    
+</head>
+<body>
+    <div class="alert alert-dismissible alert-warning">
+    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    <center>
+        <h4 class="alert-heading">BIENVENUE SUR LE SITE D'ETIENNE ARCIS</h4>
+    </center>    
+    </div>
+
+    <figure class="text-center">
+    <blockquote class="blockquote">
+        <p class="mb-0">Bienvenue sur mon site personel, ici vous pourrez trouver tout plein d'Informations sur moi, <br> Comme mes loisirs, mon portfolio, mon CV ainsi que un formulaire d'inscription pour pouvoir imprimer ces pages si besoin.</p>
+  
+    </blockquote>
+    <figcaption class="blockquote-footer">
+        Arcis Etienne 
+    </figcaption>
+    </figure>
+    
+    <h1>A Propos de Moi</h1>
+    <div class="card text-white bg-primary mb-3" style="max-width: 20rem;" align="left">
+    <div class="card-header">Informations personnelles</div>
+    <div class="card-body">
+        <h4 class="card-title">Etienne</h4>
+        <p class="card-text">J'ai 18 ans je suis en formation RT à roanne et je viens de Saint Etienne</p>
+    </div>
+    </div>
+
+    <center>
+        <div class="card border-warning mb-3" style="max-width: 20rem;">
+        <div class="card-header">Me contacter</div>
+        <div class="card-body">
+            <h4 class="card-title">Numéro de Téléphone </h4>
+            <p class="card-text">Si vous avez besoin d'une réponse rapide ou bien alors de discuter de vive voix avec moi alors voici mon numéro de téléphone : <br> 07 67 24 68 39</p>
+        </div>
+        </div> 
+    </center>
+    
+    <div class="card text-white bg-warning mb-3" style="max-width: 20rem;" align="right">
+    <div class="card-header">Me contacter</div>
+    <div class="card-body">
+        <h4 class="card-title">Adresse Mail</h4>
+        <p class="card-text">etienne.arcis@etu.univ-st-etienne.fr <br> Prévoir environ 1 jour de temps de réponse :)</p>
+    </div>
+    </div>
+    
+    <center>
+        <button onclick="window.location.href = '/loisirs';" class="btn btn-primary btn-lg">En Savoir Plus !            
+        </button>    
+    </center>
+    
+                
+</body>
+
+<br><br><br><br><br><br>
+<Footer>
+  <table class="table table-hover">    
+  <tr class="table-danger"> 
+        <th scope="row">Arcis Etienne</th>
+        <td>Ne pas copier</td>
+        <td>Tout droits réservé</td>
+        <td>© </td>
+      </tr>
+</footer> 
+{% endblock %}

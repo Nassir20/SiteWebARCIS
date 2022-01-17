@@ -1,0 +1,85 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Imprimer {% endblock %}
+
+{% block body %}
+<head>    
+</head>
+
+<body>
+    <br><br>    
+    <center> <h1> Imprimer</h1> <p> Cliquez sur les boutons et vous aurez un nouveau bouton sur les pages <br> vous permetant de pouvoir les imprimer :) </center>
+    <br><br>
+
+    <center
+        <form>
+        <input type="button" value="Accueil" onClick="window.location.href = '/accueilp';">
+        </form>
+    </center>
+    <br>
+
+    <center
+        <form>
+        <input type="button" value="portfolio" onClick="window.location.href = '/portfoliop';">
+        </form>
+    </center>
+
+    <br>
+    <center
+        <form>
+        <input type="button" value="Compétence 1" onClick="window.location.href = '/comp1p';">
+        </form>
+    </center>
+
+    <br>
+    <center
+        <form>
+        <input type="button" value="Compétence 2" onClick="window.location.href = '/comp2p';">
+        </form>
+    </center>
+
+    <br>
+    <center
+        <form>
+        <input type="button" value="Compétence 3" onClick="window.location.href = '/comp3p';">
+        </form>
+    </center>
+
+    <br>
+    <center
+        <form>
+        <input type="button" value="loisirs" onClick="window.location.href = '/loisirsp';">
+        </form>
+    </center>
+
+    <br>
+    <center
+        <form>
+        <input type="button" value="CV" onClick="window.location.href = '/cvp';">
+        </form>
+    </center>
+
+    <br>
+    <center
+        <form>
+        <input type="button" value="S'inscrire" onClick="window.location.href = '/inscriptionp';">
+        </form>
+    </center>
+    <br>
+    <center><p> ( ps : revenez a cette page a chaque fois )</p> </center>
+
+
+
+</body>
+
+<br><br>
+<Footer>
+  <table class="table table-hover">    
+  <tr class="table-danger"> 
+        <th scope="row">Arcis Etienne</th>
+        <td>Ne pas copier</td>
+        <td>Tout droits réservé</td>
+        <td>© </td>
+      </tr>
+</footer> 
+{% endblock %}
